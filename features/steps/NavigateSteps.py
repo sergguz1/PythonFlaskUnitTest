@@ -4,7 +4,7 @@ from behave import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome("driver/chromedriver.exe")
+driver = webdriver.Chrome("chromedriver.exe")
 driver.get("https://flaskapptfm.azurewebsites.net/")
 
 @given('I am at the home page')
